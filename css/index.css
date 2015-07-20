@@ -82,19 +82,31 @@ body{
     position: relative;
     border-top:2px solid #E91E63;
     margin-bottom: 5%;
+    float: left;
 }
 
 .container .projects .header{
     width:100%;
+    float:left;
     padding-left: 10%;
     color:#880E4F;
 }
 
 .container .projects .project{
+    width:100%;
     padding:2%;
     color:#880E4F;
     cursor: pointer;
     border-bottom: 1px solid pink;
+    float: left;
+}
+
+.container .projects .project div{ float:left;width:70%;}
+.container .projects .project .symbol{ width:5%;float:right;}
+
+.container .projects .project .symbol img{
+    width:50%;
+    float:left;
 }
 
 ::-webkit-scrollbar {  
