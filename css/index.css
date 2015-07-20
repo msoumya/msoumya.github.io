@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+body{
+    background: white;
+    font-size: 100%;
+    font-family: SEGOE UI;
+}
+
+.container{
+    position: relative;
+    width:100%;
+    padding:1%;
+}
+
+.container .procircle{
+    width:5%;
+    height:10%;
+    padding: 3%;
+    overflow: hidden;
+    background-image: url('../images/profile.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
